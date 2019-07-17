@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Multi-layer Image Parallax Scrolling Effect</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="container">
+        <div class="intro">
+            <img src="layer0.png" id="bg1" class="bg scrollable" alt="">
+            <img src="layer1.png" id="bg2" class="bg scrollable" alt="">
+            <img src="layer03.png" id="bg3" class="bg scrollable" alt="">
+            <img src="layer4.png" id="bg4" class="bg scrollable" alt="">
+
+            <h1 id="title">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas, tempora?</h1>
+        </div>
+
+        <div class="sections"></div>
+        <div class="sections"></div>
+        <div class="sections"></div>
+    </div>
+</body>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="parallax.js"></script>
+<script type="text/javascript">
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-36251023-1']);
+    _gaq.push(['_setDomainName', 'jqueryscript.net']);
+    _gaq.push(['_trackPageview']);
+
+    (function() {
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    })();
+</script>
+
+</html>
